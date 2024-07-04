@@ -1,0 +1,77 @@
+# Ignore PHPStorm project files
+.idea/
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore Laravel specific files (if using Laravel)
+bootstrap/cache/
+storage/*.key
+storage/*.log
+storage/app/public
+storage/debugbar
+storage/framework/cache/data
+storage/framework/sessions
+storage/framework/testing
+storage/framework/views
+storage/logs
+.env
+.env.*.local
+
+# Ignore Symfony specific files (if using Symfony)
+var/
+vendor/
+.env.local
+.env.local.php
+.env.*.local
+.env.dist
+.phpunit.result.cache
+phpstan.cache
+.php-cs-fixer.cache
+
+# Ignore CakePHP specific files (if using CakePHP)
+tmp/cache/persistent/*
+tmp/cache/models/*
+tmp/cache/views/*
+logs/*
+tmp/sessions/*
+tmp/tests/*
+tmp/cache/
+
+# Ignore WordPress specific files (if using WordPress)
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/uploads/
+wp-content/cache/
+wp-content/blogs.dir/
+
+# Ignore general configuration and sensitive files
+.env
+*.env
+*.env.*
+*.local
+*.local.php
+*.log
+*.cache
+*.key
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore other build artifacts
+/build/
+dist/
+coverage/
+yarn.lock
+npm-debug.log*
+*.swp
